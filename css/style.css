@@ -1,0 +1,52 @@
+
+/* taustaväri */
+body { 
+    background-color: #d3992c;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Pääsisällön asetukset */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Otsikko taustaväri*/
+header {
+    background-color: rgb(233, 91, 202);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgb(20, 18, 128);
+}
+
+/*Alaosan asetukset ja väri*/
+footer {
+    background-color: rgb(233, 91, 202);
+
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -4px 8px rgb(20, 18, 128);
+}
+/* Navigointivalikon asetukset */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+/* Navigointilinkkien asetukset */
+nav a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    padding: 10px;
+}
+/* Navigointivalikon hover-efekti */
+nav a:hover {
+    text-decoration: underline;
+}
+
