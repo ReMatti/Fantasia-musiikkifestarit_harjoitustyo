@@ -15,3 +15,6 @@ Aikataulu tehty artisteille ja se laitettu näkyviin.
 Artistien esiintymisajat lisätty myös artisti sivulle.
 /Matti Remes
 
+
+NET 14 tehty. 28.11
+Lipunvaraukselle tehty oma sivu, jonne pääsee joka sivulta. Lipunvaraus sivulla on paluu etusivulle. Tehty varauslomake HTML JA CSS. Lomaketta ei voi lähettää jos puuttuu: etunimi, sukunimi, sähköpostia ei hyväksytä jos ei ole @ merkkiä, lippupäivä pitää valita ja määrä.

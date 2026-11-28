@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liput</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="lippusivu">
+        
+<a href="index.html" class="paluupainike">Takaisin etusivulle</a>
+
+        <h2>Varaa liput festivaalille</h2>
+
+        <p>Varaa liput Musiikin ihmeet -festivaalille!
+            täyttämällä alla oleva lomake.
+            
+        </p>
+
+        <form class="lipunvarauslomake" method="post">
+
+            <fieldset>
+                <legend>Henkilötiedot</legend>
+            
+            <p>
+            <label for="etunimi">Etunimi:</label>
+            <input type="text" id="etunimi" name="etunimi" placeholder="Anna etunimesi" required>
+            </p>
+            <p>
+            <label for="sukunimi">Sukunimi:</label>
+            <input type="text" id="sukunimi" name="sukunimi" placeholder="Anna sukunimesi" required>
+            </p>
+            <p>
+            <label for="email">Sähköposti:</label>
+            <input type="email" id="email" name="email" placeholder="Anna sähköpostiosoitteesi" required>
+            </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Lipputiedot</legend>
+
+            <p>Valitse lipputyyppi:</p>
+
+            <input type="radio" id="perjantai" name="lipputyyppi" value="perjantai" required>
+            <label for="perjantai">Perjantai</label><br>
+
+            <input type="radio" id="lauantai" name="lipputyyppi" value="lauantai">
+            <label for="lauantai">Lauantai</label><br>
+
+            <input type="radio" id="kaksi_paivaa" name="lipputyyppi" value="kaksi_paivaa">
+            <label for="kaksi_paivaa">Kahden päivän lippu</label><br>
+
+            <label for="lippumaara">Lippujen määrä:</label>
+            <select id="lippumaara" name="lippumaara" required>
+                <option value="">Valitse määrä</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            </fieldset>
+
+            <button type="submit">Varaa liput</button>
+        </form>
+
+        <a href="index.html" class="paluupainike">Takaisin etusivulle</a>
+    </main>
+</body>
+</html>
