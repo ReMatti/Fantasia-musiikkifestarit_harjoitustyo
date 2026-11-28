@@ -156,3 +156,21 @@ lipunvarauslomake legend {
     background-color: rgb(57, 135, 224);
     color: #000000;
 }
+
+.paluupainike_vahvistus {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: rgb(238, 116, 232);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.paluupainike_vahvistus:hover {
+    background-color: rgb(57, 135, 224);
+    color: #000000;
+}

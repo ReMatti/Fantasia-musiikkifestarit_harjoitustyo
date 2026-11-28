@@ -18,3 +18,4 @@ Artistien esiintymisajat lisätty myös artisti sivulle.
 
 NET 14 tehty. 28.11
 Lipunvaraukselle tehty oma sivu, jonne pääsee joka sivulta. Lipunvaraus sivulla on paluu etusivulle. Tehty varauslomake HTML JA CSS. Lomaketta ei voi lähettää jos puuttuu: etunimi, sukunimi, sähköpostia ei hyväksytä jos ei ole @ merkkiä, lippupäivä pitää valita ja määrä.
+- Päivitys: Korjattu lipunvaraus, ettei jätä tietoja hakukenttään tai anna erroria kun kokeilee selaimessa. Lipunvarauksen jälkeen aukeaa uusi sivu missä tulee "vahvistus". Vaihdettu method=post -> action ja method=get
